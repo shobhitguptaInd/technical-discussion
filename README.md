@@ -15,3 +15,6 @@ this is a demo repository for sharing ideas around communication
 
 ##Colab
 this is a notebook [mynotebook](https://github.com/shobhitguptaInd/technical-discussion/blob/5662196e4e5de5b7aeca2511ad2ef64651b0d780/technicalDocs.ipynb)
+
+##Image
+![image](https://github.com/shobhitguptaInd/technical-discussion/assets/53973923/1497220b-bb2b-4431-ae63-d5a084a42e66)
