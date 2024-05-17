@@ -4,5 +4,6 @@ this is a demo repository for sharing ideas around communication
 
 * Creating technical discussion respository
 * Creating a gist
+* Create a notebook on collab
 * Learning integration with cloud
 * Python code base for sharing
