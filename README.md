@@ -85,7 +85,22 @@ this is a notebook [mynotebook](https://github.com/shobhitguptaInd/technical-dis
  ** Create Spot -> EC2->spot request-> select AMR-Linux 2 -> security group and Key pair created.
  ** Appropriatly name SSH instance->connect-> get SSH connecting details-> connect with cloud 9-> update software using commands below once connected
   ** sudo yum update -y  ** sudo yum install -y httpd  ** sudo systemctl start  httpd
- 
+ ** Add content to web location -> sudo usermod -a -G apache ec2-user -> sudo chown -R ec2-user:apache /var/www -> sudo chmod 2775  /var/www && find /var/www -type d -exec sudo chmod 2775 {}
+\; find /var/www -type f -exec  sudo chmod 0664 {} \; create index.html in /var/www/html -> sudo systemctl restart  httpd
+
+
+### PAAS
+** AWS Elastic Beanstak, GCP Google app engine , AWS App Services
+** EB CLI setup
+
+## Devops
+** CI, CD, Microserices, Infrastructure as code, monitoring, communication and collaboration
+
+### Infra as code
+
+
+
+
   
 
   
